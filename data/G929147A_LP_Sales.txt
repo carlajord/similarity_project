@@ -1,0 +1,142 @@
+Power Service Inc., Gas Measurement Division
+2289 Renauna Bldg. 1, Casper, WY 82601; Ph: 307-472-7722 ext. 1305
+
+Sample Name
+Company
+County/State
+Operator
+Meter # / Well Name
+
+Well Temp.
+
+Weil Pressure
+
+FlowCal From
+
+FlowCal To
+
+H2S PPM
+
+*H2S Results provided by CHK
+Method Name
+
+Injection Date
+
+Report Date
+
+EZReporter Configuration File
+NGA Phys. Property Data Source
+Data Source
+
+Component | Norm Mol% |
+
+Name 7 Dry
+Nitrogen
+Methane
+Carbon Dioxide
+Ethane
+Propane
+
+0.8715
+72.6064
+0.6396
+11.2958
+8.2430
+1.0074
+3.0569
+0.7111
+0.8357
+0.7326
+0.0000
+100.0000
+
+i-Butane
+n-Butane
+i-Pentane
+n-Pentane
+Hexanes Plus
+Water
+
+Total:
+
+Sample Information
+
+{Sample Information
+
+NW Fetter 28 USA APK 7H LPSales
+Chesapeake
+
+Converse, Wyoming
+
+STAN MCLEAN
+
+1364570903
+
+93
+
+43
+
+10/01/2016 8:00
+
+1
+
+6-27-16
+
+C6+Low p.met
+
+2016-09-20 18:19:34
+
+2016-09-20 12:23:49
+
+PSI 14.73 flowcal 07112016.cfg
+GPA Standard 2145-09 (FPS)
+EZChrom data system connection
+
+eatiiedied Results
+
+GPM (Dry).
+BTU (), | (Gal. / 1000 cuft.)
+
+0.00 0.000
+735.02 0.000
+0.00 0.000
+200.36 3.034
+207.88 2.281
+32.84 0.331
+99.96 0.968
+28.52 0.261
+33.58 0.304
+37.66 0.319
+0.00 0.000
+1375.82 7.498
+
+Results Summary
+
+Result Dry : Sat | :
+Unnormalized Total Amount 97, 8770
+Pressure Base (psia) 14.730
+Temperature Base (Deg F) 60.0
+
+Ideal BTU
+Real BTU
+
+Specific Gravity to Air
+
+09/20/2016
+
+1375.82 1351.87
+1382.10 1358.64
+0.8101 0.8072
+
+PARWSFT
+AL-3BE-7H/
+
+RECEIVED
+
+OCT 12 2018
+
+WYOMING OIL & GAS
+CONSERVATION COMMISSION
+
+Page 1
+
