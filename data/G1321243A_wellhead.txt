@@ -270,3 +270,1907 @@ Mol% Wt% LV%
 100.0000 100.0000 100.0000
 0.0000 0.0000 0.0000
 100.0000 100.0000 100.0000
+QUESTAR APPLIED TECHNOLOGY
+
+1210 D. Street, Rock Springs, Wyoming 82901
+(307) 352-7292
+
+% "By,
+3
+
+LIMS ID: N/A Description: MEGG 1-5
+Analysis Date/Time: FRA AAARAT Field: Madden
+Analyst Initials: AST ML#: 994522/ElPaso
+Instrument ID: Instrument 1 GC Method: Quesbtex
+
+Data File: QPC42.D
+
+Date Sampled: 02/07/03
+
+Component Mol% Wt% LV%
+
+Methane
+
+Ethane
+
+Propane
+
+isobutane
+
+n-Butane
+Neopentane
+lsopentane
+n-Pentane
+2,2-Dimethylbutane
+2,3-Dimethylbutane
+2-Methylpentane.
+3-Methylpentane
+n-Hexane
+
+Heptanes
+
+Octanes
+
+Nonanes
+
+Decanes plus
+Nitrogen
+
+Carbon Dioxide
+Oxygen
+
+Total
+
+Global Properties :
+Gross BTU/Real CF
+Sat.Gross BTU/Real CF
+Gas Compressibility (Z)
+Specific Gravity
+Avg Molecular Weight
+Propane GPM
+Butane GPM
+Gasoline GPM
+
+26# Gasoline GPM
+Total GPM
+
+Base Mol%
+
+Sample Temperature:
+
+Sample Pressure:
+Hydrogen Sulfide
+
+Reviewed By:
+
+94.9482
+0.1588
+0.0048
+0.0004
+0.0005
+0.0000
+0.0001
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0011
+0.0000
+0.0001
+0.0000
+0.0888
+4.7972
+0.0000
+
+100.0000
+
+966.3
+950.6
+0.9979
+0.6029
+17.420
+0.001320
+0.000288
+0.000378
+0.000536
+0.001986
+99.606
+
+64
+1000
+
+0.0000 Mole%
+
+Units.
+
+8
+
+7.4410
+0.2741
+0.0121
+0.0013
+0.0018
+0.0001
+0.0003
+0.0002
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0058
+0.0002
+0.0007
+
+0.0000
+0.1428
+12.1196
+0.0000
+100.0000
+
+94.8574
+0.2509
+0.0078
+0.0008
+0.0010
+0.0001
+0.0001
+0.0001
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0023
+0.0000
+0.0003
+0.0000
+0.0574
+4.8218
+0.0000
+
+100.0000
+
+BTU/SCF at 60°F and14.73 psia
+BTU/SCF at 60°F and14.73 psia
+
+air=1
+
+gm/mole
+gal/MCF
+gal/MCF
+gal/MCF
+gal/MCF
+gal/MCF
+%oviv
+
+°F
+psig
+
+4
+
+pil
+ee ma
+
+Component Mol% . Wt% LV%
+
+Benzene
+
+Toluene
+
+Ethylbenzene
+
+M&P Xylene
+
+O-Xylene
+2,2,4-Trimethylpentane
+Cyclopentane
+Cyclohexane
+Methylicyclohexane
+Description:
+
+Component
+Carbon Dioxide
+Hydrogen Sulfide
+Nitrogen
+Methane
+
+Ethane
+
+Propane
+Isobutane
+n-Butane
+lsopentane
+n-Pentane
+Cyclopentane
+n-Hexane
+Cyclohexane
+Other Hexanes
+Heptanes
+Methylcyclohexane
+2,2,4 Trimethylpentane
+Benzene
+Toluene
+Ethylbenzene
+Xylenes
+
+C8+ Heavies
+Subtotal
+
+Oxygen
+
+Total
+
+(Calc information —
+
+MEGG 1-5
+
+0.0006 0.0026 0.0010
+0.0003 0.0018 0.0007
+0.0000 0.0000 0.0000
+0.0001 0.0005 0.0002
+0.0000 0.0002 0.0001
+0.0000 0.0001 0.0000
+0.0000 0.0000 0.0000
+0.0001 0.0006 0.0003
+0.0001 0.0005 0.0002
+Mol% Wt% LV%
+4.7972 12.1196 4.8218
+0.0000 0.0000 0.0000
+0.0888 0.1428 0.0574
+94.9482 87.4410 94.8574
+0.1588 0.2741 0.2509
+0.0048 0.0121 0.0078
+0.0004 0.0013 0.0008
+0.0005 0.0018 0.0010
+0.0001 0.0004 0.0002
+0.0000 0.0002 0.0001
+0.0000 0.0000 0.0000
+0.0000 0.0000 0.0000
+0.0001 0.0006 0.0003
+0.0000 0.0000 0.0000
+0.0000 0.0002 0.0001
+0.0001 0.0005 0.0002
+0.0000 0.0001 0.0000
+0.0006 0.0026 0.0010
+0.0003 0.0018 0.0007
+0.0000 0.0000 0.0000
+0.0001 0.0007 0.0003
+0.0000 0.0002 0.0000
+100.0000 100.0000 100.0000
+0.0000 0.0000 0.0000
+100.0000 100.0000 100.0000
+QUESTAR APPLIED TECHNOLOGY
+
+1210 D. Street, Rock Springs, Wyoming 82901
+(307) 352-7292
+
+% "By,
+3
+
+LIMS ID: N/A Description: MEGG 1-5
+Analysis Date/Time: FRA AAARAT Field: Madden
+Analyst Initials: AST ML#: 994522/ElPaso
+Instrument ID: Instrument 1 GC Method: Quesbtex
+
+Data File: QPC42.D
+
+Date Sampled: 02/07/03
+
+Component Mol% Wt% LV%
+
+Methane
+
+Ethane
+
+Propane
+
+isobutane
+
+n-Butane
+Neopentane
+lsopentane
+n-Pentane
+2,2-Dimethylbutane
+2,3-Dimethylbutane
+2-Methylpentane.
+3-Methylpentane
+n-Hexane
+
+Heptanes
+
+Octanes
+
+Nonanes
+
+Decanes plus
+Nitrogen
+
+Carbon Dioxide
+Oxygen
+
+Total
+
+Global Properties :
+Gross BTU/Real CF
+Sat.Gross BTU/Real CF
+Gas Compressibility (Z)
+Specific Gravity
+Avg Molecular Weight
+Propane GPM
+Butane GPM
+Gasoline GPM
+
+26# Gasoline GPM
+Total GPM
+
+Base Mol%
+
+Sample Temperature:
+
+Sample Pressure:
+Hydrogen Sulfide
+
+Reviewed By:
+
+94.9482
+0.1588
+0.0048
+0.0004
+0.0005
+0.0000
+0.0001
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0011
+0.0000
+0.0001
+0.0000
+0.0888
+4.7972
+0.0000
+
+100.0000
+
+966.3
+950.6
+0.9979
+0.6029
+17.420
+0.001320
+0.000288
+0.000378
+0.000536
+0.001986
+99.606
+
+64
+1000
+
+0.0000 Mole%
+
+Units.
+
+8
+
+7.4410
+0.2741
+0.0121
+0.0013
+0.0018
+0.0001
+0.0003
+0.0002
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0058
+0.0002
+0.0007
+
+0.0000
+0.1428
+12.1196
+0.0000
+100.0000
+
+94.8574
+0.2509
+0.0078
+0.0008
+0.0010
+0.0001
+0.0001
+0.0001
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0023
+0.0000
+0.0003
+0.0000
+0.0574
+4.8218
+0.0000
+
+100.0000
+
+BTU/SCF at 60°F and14.73 psia
+BTU/SCF at 60°F and14.73 psia
+
+air=1
+
+gm/mole
+gal/MCF
+gal/MCF
+gal/MCF
+gal/MCF
+gal/MCF
+%oviv
+
+°F
+psig
+
+4
+
+pil
+ee ma
+
+Component Mol% . Wt% LV%
+
+Benzene
+
+Toluene
+
+Ethylbenzene
+
+M&P Xylene
+
+O-Xylene
+2,2,4-Trimethylpentane
+Cyclopentane
+Cyclohexane
+Methylicyclohexane
+Description:
+
+Component
+Carbon Dioxide
+Hydrogen Sulfide
+Nitrogen
+Methane
+
+Ethane
+
+Propane
+Isobutane
+n-Butane
+lsopentane
+n-Pentane
+Cyclopentane
+n-Hexane
+Cyclohexane
+Other Hexanes
+Heptanes
+Methylcyclohexane
+2,2,4 Trimethylpentane
+Benzene
+Toluene
+Ethylbenzene
+Xylenes
+
+C8+ Heavies
+Subtotal
+
+Oxygen
+
+Total
+
+(Calc information —
+
+MEGG 1-5
+
+0.0006 0.0026 0.0010
+0.0003 0.0018 0.0007
+0.0000 0.0000 0.0000
+0.0001 0.0005 0.0002
+0.0000 0.0002 0.0001
+0.0000 0.0001 0.0000
+0.0000 0.0000 0.0000
+0.0001 0.0006 0.0003
+0.0001 0.0005 0.0002
+Mol% Wt% LV%
+4.7972 12.1196 4.8218
+0.0000 0.0000 0.0000
+0.0888 0.1428 0.0574
+94.9482 87.4410 94.8574
+0.1588 0.2741 0.2509
+0.0048 0.0121 0.0078
+0.0004 0.0013 0.0008
+0.0005 0.0018 0.0010
+0.0001 0.0004 0.0002
+0.0000 0.0002 0.0001
+0.0000 0.0000 0.0000
+0.0000 0.0000 0.0000
+0.0001 0.0006 0.0003
+0.0000 0.0000 0.0000
+0.0000 0.0002 0.0001
+0.0001 0.0005 0.0002
+0.0000 0.0001 0.0000
+0.0006 0.0026 0.0010
+0.0003 0.0018 0.0007
+0.0000 0.0000 0.0000
+0.0001 0.0007 0.0003
+0.0000 0.0002 0.0000
+100.0000 100.0000 100.0000
+0.0000 0.0000 0.0000
+100.0000 100.0000 100.0000
+QUESTAR APPLIED TECHNOLOGY
+
+1210 D. Street, Rock Springs, Wyoming 82901
+(307) 352-7292
+
+% "By,
+3
+
+LIMS ID: N/A Description: MEGG 1-5
+Analysis Date/Time: FRA AAARAT Field: Madden
+Analyst Initials: AST ML#: 994522/ElPaso
+Instrument ID: Instrument 1 GC Method: Quesbtex
+
+Data File: QPC42.D
+
+Date Sampled: 02/07/03
+
+Component Mol% Wt% LV%
+
+Methane
+
+Ethane
+
+Propane
+
+isobutane
+
+n-Butane
+Neopentane
+lsopentane
+n-Pentane
+2,2-Dimethylbutane
+2,3-Dimethylbutane
+2-Methylpentane.
+3-Methylpentane
+n-Hexane
+
+Heptanes
+
+Octanes
+
+Nonanes
+
+Decanes plus
+Nitrogen
+
+Carbon Dioxide
+Oxygen
+
+Total
+
+Global Properties :
+Gross BTU/Real CF
+Sat.Gross BTU/Real CF
+Gas Compressibility (Z)
+Specific Gravity
+Avg Molecular Weight
+Propane GPM
+Butane GPM
+Gasoline GPM
+
+26# Gasoline GPM
+Total GPM
+
+Base Mol%
+
+Sample Temperature:
+
+Sample Pressure:
+Hydrogen Sulfide
+
+Reviewed By:
+
+94.9482
+0.1588
+0.0048
+0.0004
+0.0005
+0.0000
+0.0001
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0011
+0.0000
+0.0001
+0.0000
+0.0888
+4.7972
+0.0000
+
+100.0000
+
+966.3
+950.6
+0.9979
+0.6029
+17.420
+0.001320
+0.000288
+0.000378
+0.000536
+0.001986
+99.606
+
+64
+1000
+
+0.0000 Mole%
+
+Units.
+
+8
+
+7.4410
+0.2741
+0.0121
+0.0013
+0.0018
+0.0001
+0.0003
+0.0002
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0058
+0.0002
+0.0007
+
+0.0000
+0.1428
+12.1196
+0.0000
+100.0000
+
+94.8574
+0.2509
+0.0078
+0.0008
+0.0010
+0.0001
+0.0001
+0.0001
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0023
+0.0000
+0.0003
+0.0000
+0.0574
+4.8218
+0.0000
+
+100.0000
+
+BTU/SCF at 60°F and14.73 psia
+BTU/SCF at 60°F and14.73 psia
+
+air=1
+
+gm/mole
+gal/MCF
+gal/MCF
+gal/MCF
+gal/MCF
+gal/MCF
+%oviv
+
+°F
+psig
+
+4
+
+pil
+ee ma
+
+Component Mol% . Wt% LV%
+
+Benzene
+
+Toluene
+
+Ethylbenzene
+
+M&P Xylene
+
+O-Xylene
+2,2,4-Trimethylpentane
+Cyclopentane
+Cyclohexane
+Methylicyclohexane
+Description:
+
+Component
+Carbon Dioxide
+Hydrogen Sulfide
+Nitrogen
+Methane
+
+Ethane
+
+Propane
+Isobutane
+n-Butane
+lsopentane
+n-Pentane
+Cyclopentane
+n-Hexane
+Cyclohexane
+Other Hexanes
+Heptanes
+Methylcyclohexane
+2,2,4 Trimethylpentane
+Benzene
+Toluene
+Ethylbenzene
+Xylenes
+
+C8+ Heavies
+Subtotal
+
+Oxygen
+
+Total
+
+(Calc information —
+
+MEGG 1-5
+
+0.0006 0.0026 0.0010
+0.0003 0.0018 0.0007
+0.0000 0.0000 0.0000
+0.0001 0.0005 0.0002
+0.0000 0.0002 0.0001
+0.0000 0.0001 0.0000
+0.0000 0.0000 0.0000
+0.0001 0.0006 0.0003
+0.0001 0.0005 0.0002
+Mol% Wt% LV%
+4.7972 12.1196 4.8218
+0.0000 0.0000 0.0000
+0.0888 0.1428 0.0574
+94.9482 87.4410 94.8574
+0.1588 0.2741 0.2509
+0.0048 0.0121 0.0078
+0.0004 0.0013 0.0008
+0.0005 0.0018 0.0010
+0.0001 0.0004 0.0002
+0.0000 0.0002 0.0001
+0.0000 0.0000 0.0000
+0.0000 0.0000 0.0000
+0.0001 0.0006 0.0003
+0.0000 0.0000 0.0000
+0.0000 0.0002 0.0001
+0.0001 0.0005 0.0002
+0.0000 0.0001 0.0000
+0.0006 0.0026 0.0010
+0.0003 0.0018 0.0007
+0.0000 0.0000 0.0000
+0.0001 0.0007 0.0003
+0.0000 0.0002 0.0000
+100.0000 100.0000 100.0000
+0.0000 0.0000 0.0000
+100.0000 100.0000 100.0000
+QUESTAR APPLIED TECHNOLOGY
+
+1210 D. Street, Rock Springs, Wyoming 82901
+(307) 352-7292
+
+% "By,
+3
+
+LIMS ID: N/A Description: MEGG 1-5
+Analysis Date/Time: FRA AAARAT Field: Madden
+Analyst Initials: AST ML#: 994522/ElPaso
+Instrument ID: Instrument 1 GC Method: Quesbtex
+
+Data File: QPC42.D
+
+Date Sampled: 02/07/03
+
+Component Mol% Wt% LV%
+
+Methane
+
+Ethane
+
+Propane
+
+isobutane
+
+n-Butane
+Neopentane
+lsopentane
+n-Pentane
+2,2-Dimethylbutane
+2,3-Dimethylbutane
+2-Methylpentane.
+3-Methylpentane
+n-Hexane
+
+Heptanes
+
+Octanes
+
+Nonanes
+
+Decanes plus
+Nitrogen
+
+Carbon Dioxide
+Oxygen
+
+Total
+
+Global Properties :
+Gross BTU/Real CF
+Sat.Gross BTU/Real CF
+Gas Compressibility (Z)
+Specific Gravity
+Avg Molecular Weight
+Propane GPM
+Butane GPM
+Gasoline GPM
+
+26# Gasoline GPM
+Total GPM
+
+Base Mol%
+
+Sample Temperature:
+
+Sample Pressure:
+Hydrogen Sulfide
+
+Reviewed By:
+
+94.9482
+0.1588
+0.0048
+0.0004
+0.0005
+0.0000
+0.0001
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0011
+0.0000
+0.0001
+0.0000
+0.0888
+4.7972
+0.0000
+
+100.0000
+
+966.3
+950.6
+0.9979
+0.6029
+17.420
+0.001320
+0.000288
+0.000378
+0.000536
+0.001986
+99.606
+
+64
+1000
+
+0.0000 Mole%
+
+Units.
+
+8
+
+7.4410
+0.2741
+0.0121
+0.0013
+0.0018
+0.0001
+0.0003
+0.0002
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0058
+0.0002
+0.0007
+
+0.0000
+0.1428
+12.1196
+0.0000
+100.0000
+
+94.8574
+0.2509
+0.0078
+0.0008
+0.0010
+0.0001
+0.0001
+0.0001
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0023
+0.0000
+0.0003
+0.0000
+0.0574
+4.8218
+0.0000
+
+100.0000
+
+BTU/SCF at 60°F and14.73 psia
+BTU/SCF at 60°F and14.73 psia
+
+air=1
+
+gm/mole
+gal/MCF
+gal/MCF
+gal/MCF
+gal/MCF
+gal/MCF
+%oviv
+
+°F
+psig
+
+4
+
+pil
+ee ma
+
+Component Mol% . Wt% LV%
+
+Benzene
+
+Toluene
+
+Ethylbenzene
+
+M&P Xylene
+
+O-Xylene
+2,2,4-Trimethylpentane
+Cyclopentane
+Cyclohexane
+Methylicyclohexane
+Description:
+
+Component
+Carbon Dioxide
+Hydrogen Sulfide
+Nitrogen
+Methane
+
+Ethane
+
+Propane
+Isobutane
+n-Butane
+lsopentane
+n-Pentane
+Cyclopentane
+n-Hexane
+Cyclohexane
+Other Hexanes
+Heptanes
+Methylcyclohexane
+2,2,4 Trimethylpentane
+Benzene
+Toluene
+Ethylbenzene
+Xylenes
+
+C8+ Heavies
+Subtotal
+
+Oxygen
+
+Total
+
+(Calc information —
+
+MEGG 1-5
+
+0.0006 0.0026 0.0010
+0.0003 0.0018 0.0007
+0.0000 0.0000 0.0000
+0.0001 0.0005 0.0002
+0.0000 0.0002 0.0001
+0.0000 0.0001 0.0000
+0.0000 0.0000 0.0000
+0.0001 0.0006 0.0003
+0.0001 0.0005 0.0002
+Mol% Wt% LV%
+4.7972 12.1196 4.8218
+0.0000 0.0000 0.0000
+0.0888 0.1428 0.0574
+94.9482 87.4410 94.8574
+0.1588 0.2741 0.2509
+0.0048 0.0121 0.0078
+0.0004 0.0013 0.0008
+0.0005 0.0018 0.0010
+0.0001 0.0004 0.0002
+0.0000 0.0002 0.0001
+0.0000 0.0000 0.0000
+0.0000 0.0000 0.0000
+0.0001 0.0006 0.0003
+0.0000 0.0000 0.0000
+0.0000 0.0002 0.0001
+0.0001 0.0005 0.0002
+0.0000 0.0001 0.0000
+0.0006 0.0026 0.0010
+0.0003 0.0018 0.0007
+0.0000 0.0000 0.0000
+0.0001 0.0007 0.0003
+0.0000 0.0002 0.0000
+100.0000 100.0000 100.0000
+0.0000 0.0000 0.0000
+100.0000 100.0000 100.0000
+QUESTAR APPLIED TECHNOLOGY
+
+1210 D. Street, Rock Springs, Wyoming 82901
+(307) 352-7292
+
+% "By,
+3
+
+LIMS ID: N/A Description: MEGG 1-5
+Analysis Date/Time: FRA AAARAT Field: Madden
+Analyst Initials: AST ML#: 994522/ElPaso
+Instrument ID: Instrument 1 GC Method: Quesbtex
+
+Data File: QPC42.D
+
+Date Sampled: 02/07/03
+
+Component Mol% Wt% LV%
+
+Methane
+
+Ethane
+
+Propane
+
+isobutane
+
+n-Butane
+Neopentane
+lsopentane
+n-Pentane
+2,2-Dimethylbutane
+2,3-Dimethylbutane
+2-Methylpentane.
+3-Methylpentane
+n-Hexane
+
+Heptanes
+
+Octanes
+
+Nonanes
+
+Decanes plus
+Nitrogen
+
+Carbon Dioxide
+Oxygen
+
+Total
+
+Global Properties :
+Gross BTU/Real CF
+Sat.Gross BTU/Real CF
+Gas Compressibility (Z)
+Specific Gravity
+Avg Molecular Weight
+Propane GPM
+Butane GPM
+Gasoline GPM
+
+26# Gasoline GPM
+Total GPM
+
+Base Mol%
+
+Sample Temperature:
+
+Sample Pressure:
+Hydrogen Sulfide
+
+Reviewed By:
+
+94.9482
+0.1588
+0.0048
+0.0004
+0.0005
+0.0000
+0.0001
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0011
+0.0000
+0.0001
+0.0000
+0.0888
+4.7972
+0.0000
+
+100.0000
+
+966.3
+950.6
+0.9979
+0.6029
+17.420
+0.001320
+0.000288
+0.000378
+0.000536
+0.001986
+99.606
+
+64
+1000
+
+0.0000 Mole%
+
+Units.
+
+8
+
+7.4410
+0.2741
+0.0121
+0.0013
+0.0018
+0.0001
+0.0003
+0.0002
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0058
+0.0002
+0.0007
+
+0.0000
+0.1428
+12.1196
+0.0000
+100.0000
+
+94.8574
+0.2509
+0.0078
+0.0008
+0.0010
+0.0001
+0.0001
+0.0001
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0023
+0.0000
+0.0003
+0.0000
+0.0574
+4.8218
+0.0000
+
+100.0000
+
+BTU/SCF at 60°F and14.73 psia
+BTU/SCF at 60°F and14.73 psia
+
+air=1
+
+gm/mole
+gal/MCF
+gal/MCF
+gal/MCF
+gal/MCF
+gal/MCF
+%oviv
+
+°F
+psig
+
+4
+
+pil
+ee ma
+
+Component Mol% . Wt% LV%
+
+Benzene
+
+Toluene
+
+Ethylbenzene
+
+M&P Xylene
+
+O-Xylene
+2,2,4-Trimethylpentane
+Cyclopentane
+Cyclohexane
+Methylicyclohexane
+Description:
+
+Component
+Carbon Dioxide
+Hydrogen Sulfide
+Nitrogen
+Methane
+
+Ethane
+
+Propane
+Isobutane
+n-Butane
+lsopentane
+n-Pentane
+Cyclopentane
+n-Hexane
+Cyclohexane
+Other Hexanes
+Heptanes
+Methylcyclohexane
+2,2,4 Trimethylpentane
+Benzene
+Toluene
+Ethylbenzene
+Xylenes
+
+C8+ Heavies
+Subtotal
+
+Oxygen
+
+Total
+
+(Calc information —
+
+MEGG 1-5
+
+0.0006 0.0026 0.0010
+0.0003 0.0018 0.0007
+0.0000 0.0000 0.0000
+0.0001 0.0005 0.0002
+0.0000 0.0002 0.0001
+0.0000 0.0001 0.0000
+0.0000 0.0000 0.0000
+0.0001 0.0006 0.0003
+0.0001 0.0005 0.0002
+Mol% Wt% LV%
+4.7972 12.1196 4.8218
+0.0000 0.0000 0.0000
+0.0888 0.1428 0.0574
+94.9482 87.4410 94.8574
+0.1588 0.2741 0.2509
+0.0048 0.0121 0.0078
+0.0004 0.0013 0.0008
+0.0005 0.0018 0.0010
+0.0001 0.0004 0.0002
+0.0000 0.0002 0.0001
+0.0000 0.0000 0.0000
+0.0000 0.0000 0.0000
+0.0001 0.0006 0.0003
+0.0000 0.0000 0.0000
+0.0000 0.0002 0.0001
+0.0001 0.0005 0.0002
+0.0000 0.0001 0.0000
+0.0006 0.0026 0.0010
+0.0003 0.0018 0.0007
+0.0000 0.0000 0.0000
+0.0001 0.0007 0.0003
+0.0000 0.0002 0.0000
+100.0000 100.0000 100.0000
+0.0000 0.0000 0.0000
+100.0000 100.0000 100.0000
+QUESTAR APPLIED TECHNOLOGY
+
+1210 D. Street, Rock Springs, Wyoming 82901
+(307) 352-7292
+
+% "By,
+3
+
+LIMS ID: N/A Description: MEGG 1-5
+Analysis Date/Time: FRA AAARAT Field: Madden
+Analyst Initials: AST ML#: 994522/ElPaso
+Instrument ID: Instrument 1 GC Method: Quesbtex
+
+Data File: QPC42.D
+
+Date Sampled: 02/07/03
+
+Component Mol% Wt% LV%
+
+Methane
+
+Ethane
+
+Propane
+
+isobutane
+
+n-Butane
+Neopentane
+lsopentane
+n-Pentane
+2,2-Dimethylbutane
+2,3-Dimethylbutane
+2-Methylpentane.
+3-Methylpentane
+n-Hexane
+
+Heptanes
+
+Octanes
+
+Nonanes
+
+Decanes plus
+Nitrogen
+
+Carbon Dioxide
+Oxygen
+
+Total
+
+Global Properties :
+Gross BTU/Real CF
+Sat.Gross BTU/Real CF
+Gas Compressibility (Z)
+Specific Gravity
+Avg Molecular Weight
+Propane GPM
+Butane GPM
+Gasoline GPM
+
+26# Gasoline GPM
+Total GPM
+
+Base Mol%
+
+Sample Temperature:
+
+Sample Pressure:
+Hydrogen Sulfide
+
+Reviewed By:
+
+94.9482
+0.1588
+0.0048
+0.0004
+0.0005
+0.0000
+0.0001
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0011
+0.0000
+0.0001
+0.0000
+0.0888
+4.7972
+0.0000
+
+100.0000
+
+966.3
+950.6
+0.9979
+0.6029
+17.420
+0.001320
+0.000288
+0.000378
+0.000536
+0.001986
+99.606
+
+64
+1000
+
+0.0000 Mole%
+
+Units.
+
+8
+
+7.4410
+0.2741
+0.0121
+0.0013
+0.0018
+0.0001
+0.0003
+0.0002
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0058
+0.0002
+0.0007
+
+0.0000
+0.1428
+12.1196
+0.0000
+100.0000
+
+94.8574
+0.2509
+0.0078
+0.0008
+0.0010
+0.0001
+0.0001
+0.0001
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0023
+0.0000
+0.0003
+0.0000
+0.0574
+4.8218
+0.0000
+
+100.0000
+
+BTU/SCF at 60°F and14.73 psia
+BTU/SCF at 60°F and14.73 psia
+
+air=1
+
+gm/mole
+gal/MCF
+gal/MCF
+gal/MCF
+gal/MCF
+gal/MCF
+%oviv
+
+°F
+psig
+
+4
+
+pil
+ee ma
+
+Component Mol% . Wt% LV%
+
+Benzene
+
+Toluene
+
+Ethylbenzene
+
+M&P Xylene
+
+O-Xylene
+2,2,4-Trimethylpentane
+Cyclopentane
+Cyclohexane
+Methylicyclohexane
+Description:
+
+Component
+Carbon Dioxide
+Hydrogen Sulfide
+Nitrogen
+Methane
+
+Ethane
+
+Propane
+Isobutane
+n-Butane
+lsopentane
+n-Pentane
+Cyclopentane
+n-Hexane
+Cyclohexane
+Other Hexanes
+Heptanes
+Methylcyclohexane
+2,2,4 Trimethylpentane
+Benzene
+Toluene
+Ethylbenzene
+Xylenes
+
+C8+ Heavies
+Subtotal
+
+Oxygen
+
+Total
+
+(Calc information —
+
+MEGG 1-5
+
+0.0006 0.0026 0.0010
+0.0003 0.0018 0.0007
+0.0000 0.0000 0.0000
+0.0001 0.0005 0.0002
+0.0000 0.0002 0.0001
+0.0000 0.0001 0.0000
+0.0000 0.0000 0.0000
+0.0001 0.0006 0.0003
+0.0001 0.0005 0.0002
+Mol% Wt% LV%
+4.7972 12.1196 4.8218
+0.0000 0.0000 0.0000
+0.0888 0.1428 0.0574
+94.9482 87.4410 94.8574
+0.1588 0.2741 0.2509
+0.0048 0.0121 0.0078
+0.0004 0.0013 0.0008
+0.0005 0.0018 0.0010
+0.0001 0.0004 0.0002
+0.0000 0.0002 0.0001
+0.0000 0.0000 0.0000
+0.0000 0.0000 0.0000
+0.0001 0.0006 0.0003
+0.0000 0.0000 0.0000
+0.0000 0.0002 0.0001
+0.0001 0.0005 0.0002
+0.0000 0.0001 0.0000
+0.0006 0.0026 0.0010
+0.0003 0.0018 0.0007
+0.0000 0.0000 0.0000
+0.0001 0.0007 0.0003
+0.0000 0.0002 0.0000
+100.0000 100.0000 100.0000
+0.0000 0.0000 0.0000
+100.0000 100.0000 100.0000
+QUESTAR APPLIED TECHNOLOGY
+
+1210 D. Street, Rock Springs, Wyoming 82901
+(307) 352-7292
+
+% "By,
+3
+
+LIMS ID: N/A Description: MEGG 1-5
+Analysis Date/Time: FRA AAARAT Field: Madden
+Analyst Initials: AST ML#: 994522/ElPaso
+Instrument ID: Instrument 1 GC Method: Quesbtex
+
+Data File: QPC42.D
+
+Date Sampled: 02/07/03
+
+Component Mol% Wt% LV%
+
+Methane
+
+Ethane
+
+Propane
+
+isobutane
+
+n-Butane
+Neopentane
+lsopentane
+n-Pentane
+2,2-Dimethylbutane
+2,3-Dimethylbutane
+2-Methylpentane.
+3-Methylpentane
+n-Hexane
+
+Heptanes
+
+Octanes
+
+Nonanes
+
+Decanes plus
+Nitrogen
+
+Carbon Dioxide
+Oxygen
+
+Total
+
+Global Properties :
+Gross BTU/Real CF
+Sat.Gross BTU/Real CF
+Gas Compressibility (Z)
+Specific Gravity
+Avg Molecular Weight
+Propane GPM
+Butane GPM
+Gasoline GPM
+
+26# Gasoline GPM
+Total GPM
+
+Base Mol%
+
+Sample Temperature:
+
+Sample Pressure:
+Hydrogen Sulfide
+
+Reviewed By:
+
+94.9482
+0.1588
+0.0048
+0.0004
+0.0005
+0.0000
+0.0001
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0011
+0.0000
+0.0001
+0.0000
+0.0888
+4.7972
+0.0000
+
+100.0000
+
+966.3
+950.6
+0.9979
+0.6029
+17.420
+0.001320
+0.000288
+0.000378
+0.000536
+0.001986
+99.606
+
+64
+1000
+
+0.0000 Mole%
+
+Units.
+
+8
+
+7.4410
+0.2741
+0.0121
+0.0013
+0.0018
+0.0001
+0.0003
+0.0002
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0058
+0.0002
+0.0007
+
+0.0000
+0.1428
+12.1196
+0.0000
+100.0000
+
+94.8574
+0.2509
+0.0078
+0.0008
+0.0010
+0.0001
+0.0001
+0.0001
+0.0000
+0.0000
+0.0000
+0.0000
+0.0000
+0.0023
+0.0000
+0.0003
+0.0000
+0.0574
+4.8218
+0.0000
+
+100.0000
+
+BTU/SCF at 60°F and14.73 psia
+BTU/SCF at 60°F and14.73 psia
+
+air=1
+
+gm/mole
+gal/MCF
+gal/MCF
+gal/MCF
+gal/MCF
+gal/MCF
+%oviv
+
+°F
+psig
+
+4
+
+pil
+ee ma
+
+Component Mol% . Wt% LV%
+
+Benzene
+
+Toluene
+
+Ethylbenzene
+
+M&P Xylene
+
+O-Xylene
+2,2,4-Trimethylpentane
+Cyclopentane
+Cyclohexane
+Methylicyclohexane
+Description:
+
+Component
+Carbon Dioxide
+Hydrogen Sulfide
+Nitrogen
+Methane
+
+Ethane
+
+Propane
+Isobutane
+n-Butane
+lsopentane
+n-Pentane
+Cyclopentane
+n-Hexane
+Cyclohexane
+Other Hexanes
+Heptanes
+Methylcyclohexane
+2,2,4 Trimethylpentane
+Benzene
+Toluene
+Ethylbenzene
+Xylenes
+
+C8+ Heavies
+Subtotal
+
+Oxygen
+
+Total
+
+(Calc information —
+
+MEGG 1-5
+
+0.0006 0.0026 0.0010
+0.0003 0.0018 0.0007
+0.0000 0.0000 0.0000
+0.0001 0.0005 0.0002
+0.0000 0.0002 0.0001
+0.0000 0.0001 0.0000
+0.0000 0.0000 0.0000
+0.0001 0.0006 0.0003
+0.0001 0.0005 0.0002
+Mol% Wt% LV%
+4.7972 12.1196 4.8218
+0.0000 0.0000 0.0000
+0.0888 0.1428 0.0574
+94.9482 87.4410 94.8574
+0.1588 0.2741 0.2509
+0.0048 0.0121 0.0078
+0.0004 0.0013 0.0008
+0.0005 0.0018 0.0010
+0.0001 0.0004 0.0002
+0.0000 0.0002 0.0001
+0.0000 0.0000 0.0000
+0.0000 0.0000 0.0000
+0.0001 0.0006 0.0003
+0.0000 0.0000 0.0000
+0.0000 0.0002 0.0001
+0.0001 0.0005 0.0002
+0.0000 0.0001 0.0000
+0.0006 0.0026 0.0010
+0.0003 0.0018 0.0007
+0.0000 0.0000 0.0000
+0.0001 0.0007 0.0003
+0.0000 0.0002 0.0000
+100.0000 100.0000 100.0000
+0.0000 0.0000 0.0000
+100.0000 100.0000 100.0000

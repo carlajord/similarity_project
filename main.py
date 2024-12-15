@@ -91,7 +91,7 @@ class PVTAnalyser:
     def extract_data(self):
 
         chain = self.get_chain_to_extract_data()
-        self.data = self.data.apply(lambda row: self.extract_data_per_file(chain, row))
+        self.data = self.data.apply(lambda row: self.extract_data_per_file(chain, row), axis=1)
 
     def extract_data_per_file(self, chain, row):
 
@@ -120,10 +120,10 @@ class PVTAnalyser:
 
     def process_extracted_data(self):
         # use semantic similarity to get compositions in Symmetry format
-        self.data = self.data.apply(lambda row: self.process_compositions_per_file(row))
-        self.data = self.data.apply(lambda row: self.process_conditions_per_file(row))
+        self.data = self.data.apply(lambda row: self.process_components_per_file(row), axis=1)
+        self.data = self.data.apply(lambda row: self.process_conditions_per_file(row), axis=1)
     
-    def process_compositions_per_file(self, row):
+    def process_components_per_file(self, row):
 
         # start a clean vector store
         vector_store = self.initialize_vector_store()
@@ -164,7 +164,7 @@ class PVTAnalyser:
 
     def process_conditions_per_file(self, row):
         
-        conditions_raw = row['conditions']
+        conditions_raw = row['extracted_conditions']
         temp_val = conditions_raw['Sample Temperature']
         pres_val = conditions_raw['Sample Pressure']
 
@@ -188,19 +188,41 @@ class PVTAnalyser:
         return row
 
     def sym_thermo_set_script(self):
-        pass
+        self.data = self.data.apply(lambda row: self.make_sym_thermo_script_per_file(row), axis=1)
 
     def make_sym_thermo_script_per_file(self, row):
         components = row['components']
         temperature = row['temperature']
         pressure = row['pressure']
-
-    def run(self):
         
-        self.convert_pdf_to_text()
-        self.extract_data()
-        self.process_extracted_data()
+        components_cmd = []
+        compositions = ""
+        for comp_name in symmetry_components():
+            components_cmd.append(f'$VMGThermo + {comp_name}')
+            compositions = compositions + f'{components[comp_name]} '
 
+        if 'C6+' in components.keys():
+            compositions = compositions + f'{components["C6+"]} '
+            components_cmd.append('''$VMGThermo.C6+* = HypoCompound """
+MolecularWeight = 98
+LiquidDensity@298 = 611.9
+"""''')
+        conditions_cmd =[ f"'/S1.In.T' = {temperature} F", f"'/S1.In.P' = {pressure} psia"]
+
+        # add water, ethylene glycol and methanol to the list
+        compositions = compositions + '0 0 0'
+
+        set_thermo_cmds = components_cmd + [
+            '$VMGThermo + WATER',
+            '$VMGThermo + ETHYLENE_GLYCOL',
+           ' $VMGThermo + METHANOL',
+            "/S1 = Stream.Stream_Material()" ] + \
+            conditions_cmd + \
+            ["'/S1.In.MoleFlow' = 1",
+            f"'/S1.In.Fraction' = {compositions}"
+        ]
+
+        return row
 
 def extract_data_instructions():
     system_msg = """
@@ -227,10 +249,32 @@ Input:
 PROJECT NO. COMI'ANY NAME ACCGUNT NO. - PRODUCER LEASE NO.  NAME. DESCRIP ***FIELD DATA®** SAMPI ED BY: SAMPLE PRFS. : COMMENTS      COMPONENT HELIU! HYDROGEN OXYGEN/ARGON NITROGEN  o2  METHANE ETHANE PROPANE I-BUTANE N-BUT/NE I-PENTANE PEN"ANT: HEXANES PLUS TOTALS               BTEX COMPONENTS MOLE%  BENZE        TOTAL BTEX  (CALC: GASTD 214594 & TF- “DHA (DETAILED HYDROCARBON AN:  ASTH DCI0 THIS DAT:      EMPACT ANALYTICAL SYSTEMS, INC  365  SOUTH MAIN STREET  BRIGHTON, CO 80601  EXTENDED  (303) 637-0150  NATURAL GAS ANALYSIS (*DHA)                 0312028 ANALYSISNO.: 03 COMPLIANCE PARTNERS ANALYSIS DATE:  DECEMBER 7, 2003 SAMPLEDATE :  DECEMBER 4, 2003 WESTERN GAS TO: CYLINDERNO.: 0299 MDU #6 P SCHLAGEL AMBIENT TEMP.: 800 SAMPLE TEMP. 80 GRAVITY NO PROBE GPM@ GPM@ MOLE % MASS % 14.696 14.73 0.004 G001 — = 0.000 0.000 - - 0.000 0.000 - - o7 0184 = = 227 5619 - - 971 83.565 - - 2852 4805 0.7610 07628 0.910 2248 0.2502 02508 019 0637 0.0640 00641 0228 0.741 00717 00719 0.093 0375 0.0339 0.0340 6.065 0.261 00235 0.0236 0285 1564 01187 0.1187 100.000 100.000 13230 13259 WT% BTU@ 14.696 1473 0.008 0.038 NET DRY REAL: 947.15 sef 949.34 fsef 0.001 0.008 LOW NET WET RFAL: 93064 Jscf 932.83 fsef 0011 0058 GROSS DRY REAL 1049.5 fscf 1052.02 fsef 0.005 0032 HIGH ~ GROSS WET REAL 1031.30 /sef 1033.73 fsef 0026 0136 NET DRY REAL: 20142 My GROSS DRY REAL : 22321 b DENSITY (ATR=1) 06172 169 & 605 COMPRESSIBILITY FACTOR 099776        BEEN ACQUIRED THROUGH APPLICATION OF CURRENT STATE-OF - THE-ART ANALYTICAL TECHNIQUES  THE USE (.F T7IIS INFORMATION IS THE RESPONSIBLITY OF THE USER. EMPACT ANALYTICAL SYSTEMS, ASSUMES NO  RESPON:     7Y FOR ACCURACY OF THE REFORTED INFORMATION NOR ANY CONSEQUENCES OF IT'S APPLICATION  59-013 -0/23  SW NW Frement (wnf)/  Madilen Feld . UniotFm,  | -3%-90   EMPACT ANALYTICAL SYSTEMS, INC 365 SOUTH MAIN STREET  BRIGHTON, CO 80601 303) 637-0150  E & P /GlyCalc Information        PROJECTNO. 0312028 ANALYSISNO.: 03 COMPANY NAME:  COMPLIANCE PARTNERS ANALYSIS DATE:  DECEMBER 7, 2003 ACCOUNTNO. : SAMPLE DATE DECEMBER 4, 2003 PRODUCER WESTERN GAS TO:  LEASE NO. CYLINDER NO. 0299 NAMEDESCRIP:  MDU #6  *+++FIELD DATA***  SAMPLED BY: P SCHLAGEL AMBIENT TEMP. SAMPLE PRES. 800 GRAVITY  : COMMENTS NO PROBE SAMPLE TEMP 50 Comporenet Mole % Wi %  Helium 0.004 0.001 Hydrogen 0.000 0.000 Methano 0.000 0.000 Carbon Nioxide 2279 5610 Nitrager 0117 0.184 Methane 92,971 83.565 Ethane 2.852 4.805 Propane 0910 2248 Isobutan: 0.19 06.637 n-Butane 0.228 0.741 Isopenanc 0.093 0375 n-Pentanc 0.065 0.261 Cyclopen-ane 0.006 0023 n-Hexane 0.026 0123 Cyclohexane 0.021 0.100 Other Heanes 0.066 0314 Heptanes 0.045 0258 Methycyclohexane 0037 0.205 2,24 Trimethylpentane 6.000 0.000 Benzene 0.009 0038 Toluene 001 0.058 Fihylbenzene 0.001 0.008 Xylenes 0005 0.032 C8+ Heavies 0.05% 0.405 Subtotal 106,000 100.000 Oxygen 0.000 0.000  Total 100.000 100.000
 
 Output:
-{  "Conditions": [{"Sample Pressure": "800 psia"}, {"Sample Temperature": "80 degF"}],  "Components": [     {"Helium": "0.004"},     {"Hydrogen": "0.000"},     {"Oxygen/Argon": "0.000"},     {"Nitrogen": "0.117"},     {"CO2": "2.279"},     {"Methane": "92.971"},     {"Ethane": "2.852"},     {"Propane": "0.910"},     {"i-Butane": "0.196"},     {"n-Butane": "0.228"},     {"i-Pentane": "0.093"},     {"n-Pentane": "0.065"},     {"Hexanes Plus": "0.285"}   ] }
+{  "Conditions": [{"Sample Pressure": "800 psia", "Sample Temperature": "80 degF"}],  "Components": [     {"Helium": "0.004", "Hydrogen": "0.000", "Oxygen/Argon": "0.000", "Nitrogen": "0.117", "CO2": "2.279", "Methane": "92.971", "Ethane": "2.852", "Propane": "0.910", "i-Butane": "0.196", "n-Butane": "0.228", "i-Pentane": "0.093", "n-Pentane": "0.065", "Hexanes Plus": "0.285"}   ] }
 """
     return system_msg
 
 def symmetry_components():
     return ["METHANE", "ETHANE", "PROPANE", "ISOBUTANE", "n-BUTANE", \
         "ISOPENTANE", "n-PENTANE", "NITROGEN", "CARBON_DIOXIDE"]
+
+
+
+def run():
+    
+    pdf_files = [
+        DATA_PATH.joinpath("G929147A_LP_Sales.pdf"),
+        DATA_PATH.joinpath("G1320123A_wellhead.pdf"),
+        DATA_PATH.joinpath("G1321243A_wellhead.pdf")
+    ]
+
+    p = PVTAnalyser(pdf_files)
+    p.convert_pdf_to_text()
+    p.extract_data()
+    p.process_extracted_data()
+    p.sym_thermo_set_script()
+    p.data.to_csv(DATA_PATH.joinpath("processed_files.csv"))
+
+    return 
+
+if __name__ == '__main__':
+    run()
